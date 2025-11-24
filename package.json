@@ -6,7 +6,7 @@
     "tailwindcss": "^4.1.17"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./assets/css/style.css -o ./dist/output.css",
-    "postcss": "postcss ./assets/css/style.css -o ./dist/final.css"
+    "dev": "tailwindcss -i ./assets/css/style.css -o ./assets/css/output.css",
+    "postcss": "postcss ./assets/css/style.css -o ./assets/css/final.css"
   }
 }
